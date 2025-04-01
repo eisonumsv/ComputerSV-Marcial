@@ -66,6 +66,8 @@ export default {
 				// Custom colors
 				'navy': '#1a237e',
 				'bright-yellow': '#ffea00',
+				'golden-yellow': '#FFD700',
+				'darker-yellow': '#ccb800', // 20% darker yellow
 				'soft-white': '#f5f5f5',
 			},
 			borderRadius: {
