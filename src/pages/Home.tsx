@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Code, Terminal, Laptop } from 'lucide-react';
@@ -8,7 +7,11 @@ const Home = () => {
     <div className="space-y-8">
       <div className="flex flex-col items-center justify-center text-center space-y-6">
         <Avatar className="h-32 w-32 border-4 border-bright-yellow shadow-lg">
-          <AvatarImage src="/placeholder.svg" alt="Isaac John M. Marcial" />
+          <AvatarImage 
+            src="public/lovable-uploads/guy.png" 
+            alt="Isaac John M. Marcial" 
+            className="h-32 w-32 object-cover"
+          />
           <AvatarFallback className="text-2xl bg-navy text-bright-yellow">IM</AvatarFallback>
         </Avatar>
         
